@@ -16,15 +16,15 @@
 	
 		.jumbotron {
 		
-			background-image: url(jumbo.jpg);
+			background-image: url(images/jumbo.jpg);
 			text-align: center;
 			margin-top: 50px;
 		}
 		
 		#email {
 		
-			width: 300px;
-			
+			max-width: 300px;
+			margin: auto;
 		}
 		
 		#appSummary {
@@ -57,6 +57,7 @@
 			position: relative;
 			
 		}
+
 	
 	</style>
 	
@@ -102,7 +103,7 @@
 						<label class="sr-only" id="email">Email address</label>
 						<div class="input-group">
 							
-							<input type="email" class="form-control" id="email" placeholder="Your email">
+							<input type="email-label" class="form-control" id="email" placeholder="Your email">
 						</div>
 					</div>	  
 					<button type="submit" class="btn btn-primary">Sign up</button>
